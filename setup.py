@@ -1,10 +1,10 @@
 from setuptools import setup
 
-setup(name='YourAppName',
+setup(name='MOMMMS',
       version='1.0',
-      description='OpenShift App',
-      author='Your Name',
-      author_email='example@example.com',
-      url='http://www.python.org/sigs/distutils-sig/',
-#      install_requires=['Django>=1.3'],
+      description='because you\'re a terrible child',
+      author='MomNet',
+      author_email='info@mom.mms',
+      url='http://#',
+      install_requires=['Flask>=0.7.2', 'httplib2', 'requests', 'twilio', 'sqlalchemy', 'python-firebase' ]
      )
