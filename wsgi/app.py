@@ -53,7 +53,7 @@ def signup():
         log.debug( 'request: %s' % (data))
 
         # Check FB. If >= 99 entries, trigger email (should be a random msg) & clear FB
-        if countRows() > 8:
+        if countRows() > 98:
             sendEmail()
             clearData()
             return 'EMAIL SENT & FB CLEARED'
